@@ -22,9 +22,9 @@
     padding-right: 1%;
     
     & .nav-item{
+        position: relative;
         cursor: pointer;
         padding: 10px 30px;
-        border-radius: 5px;
         transition: all 0.5s;
         color: #0A063E;
 
@@ -33,8 +33,14 @@
           margin: 0 5px;
         }
 
-        &:hover{
-            background-color: #7580c162;
+        &:hover::before{
+            content: '';
+            position: absolute;
+            width: 90%;
+            bottom: 0;
+            left: 0;
+            border-bottom: 1px solid var(--cor2);
+            animation: menunav 0.2s linear;
             &:nth-child(5), &:nth-child(6){
                 background-color: #7580c162;
                 border-radius: 100%;
@@ -67,7 +73,9 @@
     }
 
     & .btn{
+        font-weight: bold;
         width: 200px;
+        height: 50px;
         background-color: coral;
         border: none;
         box-shadow: 0px 0px 20px 1px rgba(255, 127, 80, 0.765); 
@@ -87,7 +95,7 @@ footer{
     background-color: #7580c162;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     & .rows{
         display: flex;
         background-color: #0A063E;
@@ -198,3 +206,14 @@ footer{
     }
 }
    
+
+@keyframes menunav {
+    0%{
+        left: 0;
+        width: 1%;
+    }
+    100%{
+        left: 0;
+        width: 90%;
+    }
+}
