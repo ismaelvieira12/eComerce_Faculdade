@@ -3,9 +3,9 @@
     <section id="home">
         <div class="container">
             <h5>NOVIDADES</h5>
-            <h1><span>Lorem ipsum</span> dolor sit amet.</h1>
-            <p>Ut enim ad minim veniam</p>
-            <button>Comprar</button>
+            <h1><span>Não pecam</span> ofertas especiais.</h1>
+            <p>Peça agora seu produto!</p>
+            <button type="button" class="btn btn-primary">Primary</button>
         </div>
     </section>
 
