@@ -28,11 +28,11 @@
         transition: all 0.5s;
         color: #0A063E;
 
-        &:nth-child(5), &:nth-child(6){
+/*         &:nth-child(5), &:nth-child(6){
           padding: 10px 15px;
           margin: 0 5px;
         }
-
+ */
         &:hover::before{
             content: '';
             position: absolute;
