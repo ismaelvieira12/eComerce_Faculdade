@@ -1,4 +1,4 @@
-// admin/index.php
+<!-- // admin/index.php -->
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {

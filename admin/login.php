@@ -1,4 +1,4 @@
-// admin/login.php
+<!-- // admin/login.php -->
 <?php include('header.php'); ?>
 <form action="../server/authenticate.php" method="POST" class="container mt-5">
     <label for="username">Usuário</label>

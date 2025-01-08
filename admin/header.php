@@ -1,4 +1,4 @@
-// admin/header.php
+<!-- // admin/header.php -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
