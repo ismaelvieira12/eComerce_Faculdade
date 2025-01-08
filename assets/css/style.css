@@ -9,9 +9,9 @@
     --cor2: #0A063E;
 }
 
-/* .logo{
+.logo{
     height: 50px;
-} */
+}
 
 /* Menu nav bar */
 .nav-buttons{
@@ -28,11 +28,11 @@
         transition: all 0.5s;
         color: #0A063E;
 
-/*         &:nth-child(5), &:nth-child(6){
+        &:nth-child(5), &:nth-child(6){
           padding: 10px 15px;
           margin: 0 5px;
         }
- */
+
         &:hover::before{
             content: '';
             position: absolute;
@@ -41,11 +41,6 @@
             left: 0;
             border-bottom: 1px solid var(--cor2);
             animation: menunav 0.2s linear;
-            &:nth-child(5), &:nth-child(6){
-                background-color: #7580c162;
-                border-radius: 100%;
-                transition: 0s;
-            }
         }
     }
 }
@@ -64,10 +59,10 @@
     justify-content: center;
     align-items: flex-start;
 
-/*     & h5, & h1, & p{
+    & h5, & h1, & p{
         color: #f2f2f2;
     }
- */
+
     & p{
         font-weight: bold;
     }

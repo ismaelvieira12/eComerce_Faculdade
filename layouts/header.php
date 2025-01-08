@@ -40,10 +40,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#"> Fale Conosco</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item icon">
                             <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item icon">
                             <i class="fa fa-user" aria-hidden="true"></i>
                         </li>
                     </ul>
