@@ -1,5 +1,5 @@
-    <?php include("connection.php");?>
-    <?php include('layouts/header.php'); ?>
+<?php include("./server/connection.php"); ?>
+<?php include('layouts/header.php'); ?>
     <section id="home">
         <div class="container">
             <h5>NOVIDADES</h5>
