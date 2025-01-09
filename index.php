@@ -1,4 +1,4 @@
-<?php include("./server/connection.php"); ?>
+
 <?php include('layouts/header.php'); ?>
     <section id="home">
         <div class="container">
