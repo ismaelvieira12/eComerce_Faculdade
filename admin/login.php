@@ -21,5 +21,5 @@
     <label for="exampleInputPassword1" class="form-label">Crie uma senha</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
-  <button type="submit" class="btn btn-primary">Cadastrar</button>
+  <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 </form>
