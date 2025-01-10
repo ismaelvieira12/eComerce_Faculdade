@@ -10,7 +10,7 @@
 
 <form>
 <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <label for="exampleInputEmail1" class="form-label">Digite seu Nome</label>
     <input type="text" class="form-control" id="exampleInputTex" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
