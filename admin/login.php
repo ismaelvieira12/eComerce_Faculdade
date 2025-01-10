@@ -5,8 +5,7 @@
         print_r($_POST["name"]);
         print_r($_POST["email"]);
         print_r($_POST["password"]);
-    }
-?>
+    
 
 <form>
 <div class="mb-3">
