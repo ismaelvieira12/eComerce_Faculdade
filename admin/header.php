@@ -21,6 +21,7 @@
 </head>
 <body>
     <h1 class="text-center">Admin Dashboard</h1>
+<!-- ================== Incluindo a pagina de login no html. ==================== -->
     <?php include('../admin/login.php') ?>
 </body>
 </html>
