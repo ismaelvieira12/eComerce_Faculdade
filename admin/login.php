@@ -1,7 +1,7 @@
 
 <!--Serve para pegar os valores dos campos inputs  -->
 <?php
-  
+  // Criando as condições de cadastro o email tem que existir no formulario e tem que ser maior do que zero o seu tamanho
   if (isset($_POST["submit"]) && strlen($_POST['email']) > 0){
     print_r($_POST["name"]);
     print_r($_POST["email"]);
