@@ -1,5 +1,5 @@
 
-
+<!--Serve para pegar os valores dos campos inputs  -->
 <?php
     if (isset($_POST["submit"])) {
         print_r($_POST["name"]);
