@@ -95,7 +95,6 @@ footer{
     & .rows{
         display: flex;
         background-color: #0A063E;
-
         color: #ffff;
 
         & p{
@@ -124,7 +123,6 @@ footer{
                 flex-direction: column;
                 margin-right: 70%;
                 margin-top: 8px ;
-                /* font-size: 13pt; */
                 cursor: pointer;
                 & a{
                     text-decoration: none;
