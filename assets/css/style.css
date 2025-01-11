@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*=================== Variaveis padrão ==================  */
 :root{
     --cor1: #7581C1;
     --cor2: #0A063E;
