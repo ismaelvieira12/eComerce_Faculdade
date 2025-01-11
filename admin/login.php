@@ -9,14 +9,16 @@
     }
 
     $_SESSION['email'] = $mysqli->escape_string($_POST['email']); // pega o dado e limpa, evitando ataques
-    $_SESSION['senha'] = md5($_POST['senha']);
+    $_SESSION['senha'] = md5(md5($_POST['senha']));//criptografa a senha
     print_r($_POST["name"]);
     print_r($_POST["email"]);
     print_r($_POST["password"]);
+
+    $_sql_code = "SELECT senha, codigo FROM usuarios WHERE email = ' $_SESSION[email]'";
   }
 ?>
 
-<form action="ecommerce" method="post">
+<form action="" method="post">
   <div>
     <label for="exampleInputEmail1" class="form-label">Digite seu Email</label>
     <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
