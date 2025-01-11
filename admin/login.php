@@ -1,16 +1,18 @@
 
 <!--Serve para pegar os valores dos campos inputs  -->
 <?php
-    if (isset($_POST["submit"])) {
-        print_r($_POST["name"]);
-        print_r($_POST["email"]);
-        print_r($_POST["password"]);
-    ?>
+  
+  if (isset($_POST["submit"]) && strlen($_POST['email']) > 0){
+    print_r($_POST["name"]);
+    print_r($_POST["email"]);
+    print_r($_POST["password"]);
+  }
+?>
 
-<form>
+<form action="ecommerce" method="post">
   <div>
     <label for="exampleInputEmail1" class="form-label">Digite seu Email</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Crie uma senha</label>
