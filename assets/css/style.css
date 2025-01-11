@@ -1,9 +1,11 @@
+/*====================== Propriedade Global do CSS ==========================  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*=================== Variaveis padrão ==================  */
 :root{
     --cor1: #7581C1;
     --cor2: #0A063E;
@@ -94,10 +96,6 @@ footer{
     & .rows{
         display: flex;
         background-color: #0A063E;
-        /* margin: 10px 10px;
-        height: 100px;
-        border-radius: 10px;
-        box-shadow: 0px 0px 20px 10px #7580c193; */
         color: #ffff;
 
         & p{
@@ -126,7 +124,6 @@ footer{
                 flex-direction: column;
                 margin-right: 70%;
                 margin-top: 8px ;
-                /* font-size: 13pt; */
                 cursor: pointer;
                 & a{
                     text-decoration: none;
@@ -195,7 +192,7 @@ footer{
 
         & a{
             color: #f2f2f2;
-            font-size: 25px;
+            font-size: 10px;
             margin: 0 30px;
         }
     }
