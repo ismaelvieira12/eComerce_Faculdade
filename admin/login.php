@@ -14,7 +14,7 @@
     print_r($_POST["email"]);
     print_r($_POST["password"]);
 
-    $_sql_code = "SELECT senha, email FROM usuarios WHERE email = ' $_SESSION[email]'";
+    $_sql_code = "SELECT senha, email, codigo FROM usuarios WHERE email = ' $_SESSION[email]'";
     $sql_query = $mysqli->query($_sql_code) or die($mysqli->error);
     $dado = $sql_query->fetch_assoc();
     $total = $sql_query->num_rows;
@@ -25,7 +25,7 @@
     }
     else{
       if($dado['senha'] == $_SESSION['senha']){
-        
+        $_SESSION['usuario'] = $dado['codigo'];
       }
     }
   }
