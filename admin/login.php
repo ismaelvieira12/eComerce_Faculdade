@@ -20,7 +20,9 @@
     $total = $sql_query->num_rows;
 
     // Fazendo validações para o email
-    
+    if($total == 0){
+      
+    }
   }
 ?>
 
