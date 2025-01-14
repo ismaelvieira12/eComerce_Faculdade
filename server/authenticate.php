@@ -1,3 +1,3 @@
 <!-- // server/authenticate.php -->
-<?php
+
 
