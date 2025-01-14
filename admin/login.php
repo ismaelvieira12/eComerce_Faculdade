@@ -23,6 +23,11 @@
     if($total == 0){
       $erro[] = "Este email não pertence a nenhum usuário";
     }
+    else{
+      if($dado['senha'] == $_SESSION['senha']){
+        
+      }
+    }
   }
 ?>
 
