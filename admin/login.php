@@ -1,35 +1,5 @@
 
-<!--Serve para pegar os valores dos campos inputs  -->
-<?php
-  // Criando as condições de cadastro o email tem que existir no formulario e tem que ser maior do que zero o seu tamanho
-  if (isset($_POST["email"]) && strlen($_POST['email']) > 0){
 
-    if(!isset($_SESSION))
-      session_start();
-     
-
-    $_SESSION['email'] = $mysqli->escape_string($_POST['email']); // pega o dado e limpa, evitando ataques
-    $_SESSION['senha'] = md5(md5($_POST['senha']));//criptografa a senha
-    print_r($_POST["name"]);
-    print_r($_POST["email"]);
-    print_r($_POST["password"]);
-
-    $_sql_code = "SELECT senha, codigo FROM usuarios WHERE email = ' $_SESSION[email]'";
-    $sql_query = $mysqli->query($_sql_code) or die($mysqli->error);
-    $dado = $sql_query->fetch_assoc();
-    $total = $sql_query->num_rows;
-
-    // Fazendo validações para o email
-    if($total == 0){
-      $erro[] = "Este email não pertence a nenhum usuário";
-    }
-    else{
-      if($dado['senha'] == $_SESSION['senha']){
-        $_SESSION['usuario'] = $dado['codigo'];
-      }
-    }
-  }
-?>
 
 <form action="" method="post">
   <div>
