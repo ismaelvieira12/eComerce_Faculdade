@@ -11,3 +11,7 @@
         private $_conn; // Propriedade para armazenar a conexão
     }
     
+    // Método para criar a conexão com o banco de dados
+    function __construct() {
+        //Criando conexão usando OBJETO
+    }
