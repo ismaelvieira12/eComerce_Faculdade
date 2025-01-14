@@ -2,11 +2,11 @@
 <!--Serve para pegar os valores dos campos inputs  -->
 <?php
   // Criando as condições de cadastro o email tem que existir no formulario e tem que ser maior do que zero o seu tamanho
-  if (isset($_POST["submit"]) && strlen($_POST['email']) > 0){
+  if (isset($_POST["email"]) && strlen($_POST['email']) > 0){
 
-    if(!isset($_SESSION)){
+    if(!isset($_SESSION))
       session_start();
-    }
+     
 
     $_SESSION['email'] = $mysqli->escape_string($_POST['email']); // pega o dado e limpa, evitando ataques
     $_SESSION['senha'] = md5(md5($_POST['senha']));//criptografa a senha
