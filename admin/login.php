@@ -21,7 +21,7 @@
 
     // Fazendo validações para o email
     if($total == 0){
-      
+      $erro[] = "Este email não pertence a nenhum usuário";
     }
   }
 ?>
