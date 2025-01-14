@@ -19,6 +19,7 @@
     $dado = $sql_query->fetch_assoc();
     $total = $sql_query->num_rows;
 
+    // Fazendo validações para o email
     
   }
 ?>
