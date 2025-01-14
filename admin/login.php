@@ -14,7 +14,7 @@
     print_r($_POST["email"]);
     print_r($_POST["password"]);
 
-    $_sql_code = "SELECT senha, codigo FROM usuarios WHERE email = ' $_SESSION[email]'";
+    $_sql_code = "SELECT senha, email FROM usuarios WHERE email = ' $_SESSION[email]'";
   }
 ?>
 
