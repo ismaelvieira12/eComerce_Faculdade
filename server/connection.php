@@ -15,7 +15,7 @@
         //Criando conexão usando OBJETO
 
         $conn = new mysqli($host, $username, $password, $dbname);
-        if ($conn->connect_error) {
+        if ($conn->connect_errno) {
             die('Falha na conexão'. $conn->connect_error);
         }else{
             echo'Conectado com Sucesso!';
