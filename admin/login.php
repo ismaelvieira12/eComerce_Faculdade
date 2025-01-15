@@ -1,7 +1,7 @@
 
 
 
-<form action="" method="POST">
+<form method="post" action="edit_order.php">
   <div>
     <label for="exampleInputEmail1" class="form-label">Digite seu Email</label>
     <input type="email" value="" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
