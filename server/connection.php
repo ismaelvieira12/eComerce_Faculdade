@@ -2,7 +2,6 @@
 
 <?php
 
-
     // Criando as variáveis
     $host = 'localhost'; // Endereço do servidor MySQL
     $username = 'root'; // Nome de usuário
