@@ -26,6 +26,8 @@
     else{
       if($dado['senha'] == $_SESSION['senha']){
         $_SESSION['usuario'] = $dado['codigo'];
+      }else{
+        $erro[] = "Senha incorreta";
       }
     }
   }
@@ -34,7 +36,7 @@
 <form action="" method="post">
   <div>
     <label for="exampleInputEmail1" class="form-label">Digite seu Email</label>
-    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="email" value="<?php echo $_SESSION['email']; ?>" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Crie uma senha</label>
