@@ -1,7 +1,7 @@
 
 
 
-<form method="post" action="">
+<!--<form method="post" action="">
   <div>
     <label for="exampleInputEmail1" class="form-label">Digite seu Nome</label>
     <input type="text" value="" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
