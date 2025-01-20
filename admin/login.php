@@ -1,7 +1,7 @@
 
 
 
-<!--<form method="post" action="">
+<form method="POST" action="../server/authenticate.php">
   <div>
     <label for="exampleInputEmail1" class="form-label">Digite seu Nome</label>
     <input type="text" value="" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -16,13 +16,4 @@
   </div>
   <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 </form>
--->
-<form action="login.php" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <br>
-        <button type="submit">Login</button>
-    </form>
+
