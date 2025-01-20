@@ -6,7 +6,7 @@
     $host = 'localhost'; // Endereço do servidor MySQL
     $username = 'root'; // Nome de usuário
     $password = '';  //Senha do usuário
-    $dbname = 'ecommerce'; // Nome do banco de dados criado
+    $dbname = 'testando'; // Nome do banco de dados criado
     $conn; // Propriedade para armazenar a conexão
     
     
