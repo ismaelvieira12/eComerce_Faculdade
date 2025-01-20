@@ -17,8 +17,4 @@
   <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 </form>
 -->
-<form method="post" action="edit_order.php">
-  <input type="text" name="name">
-  <input type="text" name="sobrenome">
-  <button type="submit">enviar</button>
-</form>
+
