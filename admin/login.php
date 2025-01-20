@@ -17,4 +17,8 @@
   <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 </form>
 -->
-
+<form action="">
+  <input type="email" name="email" id="email" placeholder="email">
+  <input type="password" name="senha" id="senha" placeholder="Senha">
+  <button type="submit">Enviar</button>
+</form>
