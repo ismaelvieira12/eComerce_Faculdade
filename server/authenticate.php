@@ -12,6 +12,10 @@
 
     <?php 
     
+        require("connection.php");
+        if(isset($_POST)){
+           $query = "INSERT INTO user (user_email, user_senha)"
+        }
     ?>
 </body>
 </html>
