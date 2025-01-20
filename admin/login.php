@@ -17,7 +17,7 @@
   <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 </form>
 -->
-<form action="">
+<form action="../server/authenticate.php" method="POST">
   <input type="email" name="email" id="email" placeholder="email">
   <input type="password" name="senha" id="senha" placeholder="Senha">
   <button type="submit">Enviar</button>
