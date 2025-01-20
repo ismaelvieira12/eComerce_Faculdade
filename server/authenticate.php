@@ -11,14 +11,14 @@
 
     <?php 
         require("connection.php");
-        $email = $_POST['email'];
-        $password = $_POST['senha'];
         if(isset($_POST)){
-           $query = "INSERT INTO user (user_email, user_senha) VALUES ('$email', '$password')";
+            $email = $_POST['email'];
+            $password = $_POST['senha'];
+           "INSERT INTO user (nome, sobrenome) VALUES ('$email', '$password')";
 
            //Criando regra de validação antes de enviar os dados
-            $stmt = $mysqli->prepare($query);
-            $stmt->excute();
+            // $stmt = $mysqli->prepare($query);
+            // $stmt->excute();
         }
     ?>
 </body>
