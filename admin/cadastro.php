@@ -20,6 +20,14 @@
       <a href="login.php" class="btn-from-login">Ja possue uma conta? Login</a>
     </p>
   </form>
+
+  <script>
+    const btnFromLogin = document.querySelector('.btn-from-login');
+    const boxCadastro = document.querySelector('.login-container')
+    btnFromLogin.addEventListener('click', () => {
+      .classList.add('login');
+    })
+  </script>
 </div>
 
 

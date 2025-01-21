@@ -66,7 +66,7 @@
         }
 
         p{
-            margin-top: 25px;
+            margin-top: 5px;
             .btn-from-login{
                 font-size: 12px;
             }
