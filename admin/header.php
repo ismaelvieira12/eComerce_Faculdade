@@ -31,7 +31,7 @@
         }
         .login-container {
             background: white;
-            padding: 20px;
+            padding: 20px 20px 20px ;
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             width: 300px;
@@ -64,6 +64,13 @@
         .login-container button:hover {
             background: #0056b3;
         }
+
+        p{
+            margin-top: 25px;
+            .btn-from-login{
+                font-size: 12px;
+            }
+        }
         .error, .success {
             text-align: center;
             margin-top: 10px;
@@ -73,6 +80,10 @@
         }
         .error { background: #e74c3c; }
         .success { background: #2ecc71; }
+
+        .login{
+            display: none;
+        }
     </style>
 </head>
 <body>

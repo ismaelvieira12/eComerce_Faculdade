@@ -17,7 +17,7 @@
     <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 
     <p>
-      <a href="login.php">Ja possue uma conta? Login</a>
+      <a href="login.php" class="btn-from-login">Ja possue uma conta? Login</a>
     </p>
   </form>
 </div>
