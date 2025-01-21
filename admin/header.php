@@ -81,13 +81,13 @@
         .error { background: #e74c3c; }
         .success { background: #2ecc71; }
 
-        .login{
+        .hidden{
             display: none;
         }
     </style>
 </head>
 <body>
 <!-- ================== Incluindo a pagina de login no html. ==================== -->
-    <?php include('../admin/cadastro.php') ?>
+    <?php include('cadastro.php') ?>
 </body>
 </html>

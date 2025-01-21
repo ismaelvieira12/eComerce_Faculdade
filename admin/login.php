@@ -1,5 +1,5 @@
 
-<div class="login-container login">
+<div class="login-container ">
     <h2>Login</h><br><br>
     <form method="POST" action="../server/authenticate.php" id="loginForm">
     <div>

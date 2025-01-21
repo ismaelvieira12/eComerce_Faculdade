@@ -25,7 +25,7 @@
     const btnFromLogin = document.querySelector('.btn-from-login');
     const boxCadastro = document.querySelector('.login-container')
     btnFromLogin.addEventListener('click', () => {
-      .classList.add('login');
+      
     })
   </script>
 </div>
