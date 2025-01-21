@@ -47,6 +47,11 @@
             border: 1px solid #ddd;
             border-radius: 4px;
         }
+        label{
+            font-size: 15px;
+            text-align: left;
+            width: 100%;
+        }
         .login-container button {
             width: 100%;
             padding: 10px;
@@ -72,6 +77,6 @@
 </head>
 <body>
 <!-- ================== Incluindo a pagina de login no html. ==================== -->
-    <?php include('../admin/login.php') ?>
+    <?php include('../admin/cadastro.php') ?>
 </body>
 </html>
