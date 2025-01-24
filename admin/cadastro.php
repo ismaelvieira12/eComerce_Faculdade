@@ -21,13 +21,13 @@
     </p>
   </form>
 
-  <!-- <script>
+  <script>
     const btnFromLogin = document.querySelector('.btn-from-login');
     const boxCadastro = document.querySelector('.login-container')
     btnFromLogin.addEventListener('click', () => {
       
   })
-  </script> -->
+  </script>
 </div>
 
 
