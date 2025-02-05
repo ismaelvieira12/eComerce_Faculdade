@@ -1,17 +1,16 @@
-<?php 
-    // Vamos precisar de 4 variaveis para conexão
+<?php
+    $localhost = 'localhost';
+    $username = 'root';
+    $password = '';
+    $dbname = 'ecommerce';
+    $conn;
 
-    $hostname = "localhost";
-    $bancodedados = "ecommerce";
-    $usuario = "root";
-    $senha = "";
-
-
-// Agr eremos criar um obj para conexão
-    $mysqli = new mysqli($hostname, $usuario, $senha, $bancodedados);
-
-    if ($mysqli->connect_errno) {
-        echo "Falha ao conectar: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+    $conn = mysqli_connect($localhost, $username, $password);
+    if ($conn->connect_error) {
+        echo "erro de conexão";
     }else{
         echo "Conectado com sucesso!";
-    };
+    }
+
+
+?>
