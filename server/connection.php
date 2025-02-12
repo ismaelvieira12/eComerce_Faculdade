@@ -1,16 +1,17 @@
+
+<!-- Fazendo a conexão com o banco de dados -->
+
 <?php
-    $localhost = 'localhost';
+    $host = 'localhost';
+    $dbname = 'ecommerce';
     $username = 'root';
     $password = '';
-    $dbname = 'ecommerce';
-    $conn;
 
-    $conn = mysqli_connect($localhost, $username, $password);
-    if ($conn->connect_error) {
-        echo "erro de conexão";
-    }else{
-        echo "Conectado com sucesso!";
+    try {
+        $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch (PDOException $e) {
+        die("Connection failed: " . $e->getMessage());
     }
-
-
 ?>
+
