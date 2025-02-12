@@ -1,3 +1,4 @@
+<?php include("header.php");?>
 
 <form action="" method="post">
   <div>
@@ -23,4 +24,3 @@
     <button type="submit" class="btn btn-primary btn">Cadastrar</button>
 </form>
 </div>
-<?php include("header.php");?>
