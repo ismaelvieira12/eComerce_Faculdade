@@ -1,3 +1,4 @@
+
 <!-- Fazendo a conexão com o banco de dados -->
 
 <?php
@@ -13,4 +14,5 @@
         die("Connection failed: " . $e->getMessage());
     }
 ?>
+
 
