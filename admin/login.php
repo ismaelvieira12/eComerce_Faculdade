@@ -28,15 +28,24 @@
            color: #2d2d2d;
            margin-top: 0;
         }
-        .login-container input {
+        #loginForm{
             width: 100%;
-            padding: 10px;
-            margin: 10px 0;
+            margin: 0;
+        }
+        .login-container input {
+            width: 86%;
+            padding: 20px;
+            margin: 20px 0;
             border: 1px solid #ddd;
+            font-size: 15px;
             border-radius: 4px;
+            &:focus{
+                outline:1px solid #007BFF;
+            }
         }
         label{
             font-size: 15px;
+            color: #2d2d2d;
             text-align: left;
             width: 100%;
         }
@@ -52,7 +61,13 @@
         .login-container button:hover {
             background: #0056b3;
         }
-
+        .forgt{
+            text-align: center;
+            margin-top: 10px;
+            & a{
+                color: #007BFF;
+            }
+        }
         p{
             margin-top: 5px;
             .btn-from-login{
@@ -86,8 +101,11 @@
                 <label for="exampleInputPassword1" class="form-label">Digite sua senha</label>
                 <input type="password" name="senha" class="form-control" id="exampleInputPassword1" placeholder="Senha">
             </div>
-            <button type="submit" class="btn btn-primary btn">Cadastrar</button>
+            <button type="submit" class="btn btn-primary btn">Entrar</button>
         </form>
+        <p class="forgt">
+            <a  href="./header.php">Não possue uma conta?</a>
+        </p>
     </div>
 </body>
 </html>
