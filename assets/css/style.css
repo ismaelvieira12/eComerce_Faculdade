@@ -30,6 +30,10 @@
         transition: all 0.5s;
         color: #0A063E;
 
+        & .login-icon{
+            color: #0A063E;
+        }
+        
         &:nth-child(5), &:nth-child(6){
           padding: 10px 15px;
           margin: 0 5px;
@@ -46,6 +50,7 @@
         }
     }
 }
+
 
 /* PArte do corpo */
 
