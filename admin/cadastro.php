@@ -92,7 +92,7 @@
    
     <div class="login-container">
         <h2>Cadastro</h>
-        <form method="POST" action="../index.php" id="loginForm">
+        <form method="POST" action="../server/connection.php" id="loginForm">
             <div>
                 <label for="name" class="form-label">Digite seu Nome</label>
                 <input type="text" value="" name="name" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Digite seu nome">
