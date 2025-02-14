@@ -1,0 +1,52 @@
+/*====================== Propriedade Global do CSS ==========================  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*=================== Variaveis padrão ==================  */
+:root{
+    --cor1: #7581C1;
+    --cor2: #0A063E;
+}
+
+.logo{
+    height: 50px;
+}
+
+/* Menu nav bar */
+.nav-buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1%;
+    
+    & .nav-item{
+        position: relative;
+        cursor: pointer;
+        padding: 10px 30px;
+        transition: all 0.5s;
+        color: #0A063E;
+
+        & .login-icon{
+            color: #0A063E;
+        }
+        
+        &:nth-child(5), &:nth-child(6){
+          padding: 10px 15px;
+          margin: 0 5px;
+        }
+
+        &:hover::before{
+            content: '';
+            position: absolute;
+            width: 90%;
+            bottom: 0;
+            left: 0;
+            border-bottom: 1px solid var(--cor2);
+            animation: menunav 0.2s linear;
+        }
+    }
+}
