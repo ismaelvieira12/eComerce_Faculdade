@@ -16,7 +16,7 @@
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
         crossorigin="anonymous"/>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-        <title>Document</title>
+        <title>Home</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
