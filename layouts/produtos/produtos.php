@@ -49,5 +49,15 @@
             </div>
         </div>
     </nav>
+
+    <div class="container mt-4">
+        <h2 class="text-center">Produtos em Destaque</h2>
+        <div class="row" id="produtos-container">
+            <!-- Os produtos serão inseridos dinamicamente aqui -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

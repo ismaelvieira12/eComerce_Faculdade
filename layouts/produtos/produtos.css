@@ -33,7 +33,7 @@
         & span{
             color: #0A063E;
         }
-        
+
         & .login-icon{
             color: #0A063E;
         }
@@ -53,4 +53,12 @@
             animation: menunav 0.2s linear;
         }
     }
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
