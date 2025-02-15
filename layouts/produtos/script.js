@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function() {
     const produtos = [
-        { nome: "Produto 1", preco: "R$ 100,00", imagem: "https://via.placeholder.com/150" },
-        { nome: "Produto 2", preco: "R$ 150,00", imagem: "https://via.placeholder.com/150" },
-        { nome: "Produto 3", preco: "R$ 200,00", imagem: "https://via.placeholder.com/150" }
+        { nome: "Produto 1", preco: "R$ 100,00", imagem:  img="../../assets/imgs/post4-memory-ram.jpg"},
+        { nome: "Produto 2", preco: "R$ 150,00", imagem:  img="../../assets/imgs/post2-CPU.jpg" },
+        { nome: "Produto 3", preco: "R$ 200,00", imagem:  img="../../assets/imgs/post3-placRede.jpg" }
     ];
 
     const container = document.getElementById("produtos-container");
