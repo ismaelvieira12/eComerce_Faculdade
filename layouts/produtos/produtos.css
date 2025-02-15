@@ -56,9 +56,22 @@
 }
 
 .card {
+    margin-top: 10px;
     transition: transform 0.3s ease-in-out;
 }
 
 .card:hover {
     transform: scale(1.05);
+}
+
+
+@keyframes menunav {
+    0%{
+        left: 0;
+        width: 1%;
+    }
+    100%{
+        left: 0;
+        width: 90%;
+    }
 }
