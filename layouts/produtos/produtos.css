@@ -30,6 +30,10 @@
         transition: all 0.5s;
         color: #0A063E;
 
+        & span{
+            color: #0A063E;
+        }
+        
         & .login-icon{
             color: #0A063E;
         }
